@@ -17,8 +17,8 @@ def main():
     )
     complexity_info = analyser.get_complexity_info()
     print("Time class: ", complexity_info.complexity_class)
-    print("Estimated maximum number of elems sorted in 30 seconds: " + complexity_info.estimate_max_n(30))
-    print("Estimated time needed to sort 10000 elements: " + complexity_info.esimate_time(10000))
+    print("Estimated maximum number of elems sorted in 30 seconds: ", complexity_info.estimate_max_n(30))
+    print("Estimated time needed to sort 10000 elements: ", complexity_info.esimate_time(10000))
     
 if __name__ == '__main__':
     main()
